@@ -45,7 +45,27 @@ function App() {
         <Routes>
          
           <Route exact path="/" element={<LoginApp />} />
-          
+          <Route exact path="/Home" element={<Home />} />
+          <Route path="/Dashboard" element={<Dashboard />} />
+          <Route path="/create-customer" element={<CreateCustomer />} />
+          <Route path="/StatusDisplay" element={<Statuspage />} />
+          <Route path="/customer-request" element={<StatusDisplay />} />
+          <Route path="/NewCreateCustomer" element={<NewCustomerRequest />} />
+          <Route path="/NewCustomerCreation" element={<NewCustomerCreation />} />
+          <Route path="/NewPartnerCreation" element={<Create_partner/>} />
+          <Route path="/NewPoCreation" element={<PoCreation/>} />
+          <Route path="/NewPoCreation_add" element={<POCreationwithAddition/>} />
+          <Route path="/Show_Customer" element={<All_customer/>} />
+          <Route path="/Show_Partner" element={<All_Partner/>} />
+          <Route path="/Customer_spoc" element={<Customer_spoc/>} />
+          <Route path="/Dropdown1" element={<Dropdown1/>} />
+          <Route path="/PO_Dashboard" element={<PO_Dashboard/>} />
+          <Route path="/edit_po/:po_id" element={<Edit_po />} />
+          <Route path="/Update_po/:po_id" element={<Amended_po />} />
+          <Route path="/customer_home" element={<customer_home  />} />
+          <Route path="/show_Partner_AESPOC" element={<Partner_AE_Spoc  />} />
+          <Route path="/show_Partner_SPOC" element={<Partner_Spoc  />} />
+          <Route path="/show_Customer_SPOC" element={<Customer_spoc_spoc />} />
           <Route path="/GLCodeComponent" element={<GLCodeComponent />} />
           {!isLoggedIn && <Route path="*" element={<Navigate to="/" />} />}
           <Route path="*" element={<NotFound />} />

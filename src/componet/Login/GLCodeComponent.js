@@ -485,5 +485,3 @@ const editButtonRef = useRef(null); // Ref for the edit button
 };
 
 export default GLCodeComponent;
-
-
