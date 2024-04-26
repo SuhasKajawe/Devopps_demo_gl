@@ -38,7 +38,7 @@ function LoginApp() {
         if ((lowercaseUsername === 'suhas' || lowercaseUsername === 'pratik.doke@automationedge.com') && password === '123') {
            
             sessionStorage['username'] = lowercaseUsername;
-            window.location.href = '/GLCodeComponent'; // Redirecting to the dashboard
+            window.location.href = '/dashboard'; // Redirecting to the dashboard
         } else {
             setAuthError(true); // Set authentication error
         }
