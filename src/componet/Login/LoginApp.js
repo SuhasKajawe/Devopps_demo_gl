@@ -66,7 +66,8 @@ function LoginApp() {
            
             <div className="container-fluid position-relative">
                 <div className="text-center">
-                    <h1>Software Asset Management Solution for Creating, Managing and Distributing AutomationEdge Licenses</h1>
+                {/*    <h1>Software Asset Management Solution for Creating, Managing and Distributing AutomationEdge Licenses</h1>
+                */}
                 </div>
                 <div className="row justify-content-center align-items-center vh-100">
                     <div className="col-md-6 login-image">
